@@ -5,8 +5,9 @@
  * @param {string} dateString - ISO format date string
  * @returns {string} Formatted date
  */
-export function formatDate(dateString) {
+export function formatDate(dateString, test = false) {
   const date = new Date(dateString);
+  console.log(date, test);
   return date.toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
