@@ -1,0 +1,26 @@
+{
+  "fileGraph": {
+    "app.js": [
+      "components/Dashboard.js"
+    ],
+    "components/Dashboard.js": [
+      "components/DocumentList.js",
+      "services/dataService.js",
+      "utils/helpers.js"
+    ],
+    "components/DocumentList.js": [
+      "services/dataService.js",
+      "utils/helpers.js"
+    ],
+    "services/dataService.js": [
+      "utils/helpers.js"
+    ]
+  },
+  "fileNameMap": {
+    "app.js": "/home/asplap1937/Documents/Git_agent/test-callgraph/src/app.js",
+    "components/Dashboard.js": "/home/asplap1937/Documents/Git_agent/test-callgraph/src/components/Dashboard.js",
+    "components/DocumentList.js": "/home/asplap1937/Documents/Git_agent/test-callgraph/src/components/DocumentList.js",
+    "services/dataService.js": "/home/asplap1937/Documents/Git_agent/test-callgraph/src/services/dataService.js",
+    "utils/helpers.js": "/home/asplap1937/Documents/Git_agent/test-callgraph/src/utils/helpers.js"
+  }
+}
